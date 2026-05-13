@@ -1,0 +1,9 @@
+---
+- name: Message Playbook
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Print Hello Message
+      debug:
+        msg: "Hello from Ansible"
